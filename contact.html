@@ -1,0 +1,209 @@
+ <!doctype html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends-Rental</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+ integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+ crossorigin="anonymous"
+ referrerpolicy="no-referrer" />
+  </head>
+  <body>
+ <!-- Nav bar Startig -->
+  <header>
+ <nav>
+ <a href="index.html" class="brand">
+   <h1>Friends<b class="accent">Rental</b></h1>
+ </a>
+ <div class="menu">
+   <div class="btn">
+     <i class="fas fa-times close-btn"></i>
+   </div>
+   <a href="index.html">HOME</a>
+   <a href="collection.html">CARS</a>
+   <a href="#review">REVIEWS</a>
+   <a href="contact.html">CONTACT-US</a>
+ 
+   <button class="btn-2" onclick="window.location.href='contact.html'">
+  Get Started
+  </button>
+  <div class="btn">
+    <i class="fas fa-bars menu-btn"></i>
+  </div>
+ </div>
+  </header>
+ </nav>
+ <!-- Nav bar ending -->
+  <br />
+  <br />
+  <br />
+  <br />
+
+ <!--  CONTACT PAGE-->
+
+ <h1 class="contact-heading" data-aos="fade-up",
+      data-aos-delay="600", >Get In Touch For Your Dream Ride!</h1>
+ <p class="contact-pera" data-aos="fade-up",
+      data-aos-delay="600",>have questions or need assistance? our team is here to help you find the
+ perfect car for your journey!</p>
+ 
+ <form action="https://formspree.io/f/mpwawbzl" method="post"  data-aos="fade-up",
+      data-aos-delay="800",>
+   
+ 
+ <div class="car-select">
+   <div class="car-select-item">
+     <label for="Location">Location</label>
+     <select name="Location" id="Location" class="car-select-input"
+     required
+     >
+       
+ <option value="ahemdabad">ahemdabad</option>
+ <option value="palanpur">palanpur</option>
+ <option value="delhi">delhi</option>
+ <option value="morbi">morbi</option>
+ <option value="mumbai"> mumbai</option>
+ <option value="haryana"> haryana</option>
+ <option value="manali"> manali</option>
+ 
+     </select>
+     
+   </div>
+   
+     <div class="car-select-item">
+     <label for="car-type">Car To Rent</label>
+     <select name="car-type" id="car-type" class="car-select-input"
+     required
+     >
+       
+ <option value="Mercedes-AMG"> Mercedes-AMG</option>
+ <option value="Lamborghini Venom">Lamborghini Venom</option>
+ <option value="Rolls Royce Dawn">Rolls Royce Dawn</option>
+ <option value="Toyota 86 - Coupe">Toyota 86 - Coupe</option>
+ <option value="BMW 428i - F32">BMW 428i - F32</option>
+ <option value="Audi A8"> Audi A8</option>
+ <option value="Mercedes-AMG GT R"> Mercedes-AMG GT R</option>
+ 
+     </select>
+     
+   </div>
+    
+      <div class="car-select-item">
+   <label for="Date">Date:</label>
+   <input type="date" name="Date" id="Date" class="car-select-input"
+   required
+   />
+  
+ </div>
+   </div>
+   
+   <div class="contact-form">
+     <input type="text" name="name"  placeholder="  Name" required />
+     <input type="email" name="email"  placeholder=" email@address.com" required />
+     <input type="number" name="phone number"  placeholder="  999-999-9999"
+     pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+     maxlength="10"
+     required />
+     
+     <button type="submit"class="btn-2">Submit</button>
+   </div>
+ 
+
+ </form>
+ 
+ <br />
+<br />
+<hr />
+<br />
+<br />
+ <h1 class="contact-heading" data-aos="fade-up",
+      data-aos-delay="600", >Please Give Your Valuable Feedback Here--</h1>
+      <div class="feedback-form">
+        
+      
+ <form action="https://formspree.io/f/mpwawbzl" method="post"  data-aos="fade-up",
+      data-aos-delay="800",>
+   <div class="feedback-input">
+     
+   
+   <input type="text" name="feedback" id="fedback" placeholder="Enter Your
+   Feedback Here"/>
+   <br />
+   <div class="feedback-btn">
+     
+   
+     <button type="submit"class="btn-2">Submit</button>
+     </div>
+     </div>
+ </form>
+     </div>
+ 
+ <br />
+ <br />
+
+ 
+ <!--  CONTACT PAGE END -->
+  <br />
+  <br />
+  
+  
+   <!--  FOOTER SECTION  -->
+   <footer class="index-footer" data-aos="fade-up",
+      data-aos-delay="800",>
+     <div class="callout">
+       <h2>Let's Drive With Friends-Rental Today</h2>
+       <p class="callout-desc">need assistance or redy to reserve to reserve
+       your wheel? contact us now for prompt service and effortless booking </p>
+       <div class="callout-buttons">
+         <button class="btn-2 btn-callout"
+         onclick="window.location.href='collection.html'">
+           <p>Check Our Cars</p>
+          <i class="fa-solid fa-arrow-right-long fa-beat-fade"></i></button>
+         
+          <button class="btn-2 btn-callout btn-callout-black"
+         onclick="window.location.href='contact.html'">
+           <p>Book Now</p>
+        <i class="fa-solid fa-phone fa-shake"></i>
+          </button>
+         
+       </div>
+     </div>
+     
+     <div class="footer-bottom">
+       <a href="/" class="footer-brand">Friends<b class="accent">Rental</b></a>
+       <div class="socials">
+         <a href="/" class="social-item">
+           <i class="fa-brands fa-facebook-f"></i> 
+         </a>
+         
+          <a href="/" class="social-item">
+           <i class="fa-brands fa-instagram"></i> 
+         </a>
+         
+          <a href="/" class="social-item">
+           <i class="fa-brands fa-x-twitter"></i> 
+         </a>
+         
+          <a href="/" class="social-item">
+           <i class="fa-brands fa-telegram"></i> 
+         </a>
+         
+       </div>
+     </div>
+     
+   </footer>
+   
+   <!--  FOOTER SECTION END -->
+     
+       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+   </body>
+</html>
+
+ 
