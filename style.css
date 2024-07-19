@@ -1052,6 +1052,9 @@ gap: 72px;
   .car-info{
     gap: 18px;
   }
+  .car-info h5{
+    font-size: 20px;
+  }
   .car-price h5, .car-location i, .collection-car-items h2, {
     font-size: 17px;
   }
