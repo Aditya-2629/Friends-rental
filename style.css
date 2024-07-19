@@ -19,7 +19,7 @@
     scroll-behavior: smooth;
     
   }
-  input{
+  input [type="empty"],[type="email"],[type="number"],[type="text"]{
     border: none;
     outline: none;
     padding: 4px;
@@ -28,7 +28,7 @@
     min-height: 100vh;
   }
   section {
-    min-width: auto;
+    min-width: 100%;
     min-height: 100vh;
     color:  var(--black);
   }
@@ -324,7 +324,7 @@
   
   .collection-car-items{
     width: 430px;
-    height: 500px;
+    height: auto;
     background-color: var(--gray);
   display: flex;
   flex-direction: column;
@@ -386,23 +386,17 @@
     margin-top: 5px;
     
   }
-  .btn-car{
+   .car-info-container button{
+    background-color: yellow;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
     border-radius: 32px;
-    width: 172px;
-    height: 50px;
-    font-size: 16px;
-  }
-  .btn-car i{
+  margin: 5px auto;
     font-size: 16px;
   }
   
-  .btn-car:hover{
-    gap: 8px;
-  }
   
   .btn-herocar{
     width: 276px;
@@ -609,7 +603,7 @@ cursor: pointer;
  }
  
  #collection-car-item-page{
-   height: 520px;
+   height: auto;
  }
 .collection-category{
   display: flex;
@@ -631,7 +625,7 @@ cursor: pointer;
    margin: 18px;
  }
  .btn-collection-page{
-   width: auto;
+    margin: 5px auto;
    border-radius: 12px;
    font-size: 20px;
  }
@@ -1045,7 +1039,7 @@ gap: 72px;
   .collection-car-items{
     margin: 30px;
     width: 280px;
-    height: 350px;
+    height: auto;
   }
   .car-info-container{
     padding: 13px;
@@ -1053,11 +1047,14 @@ gap: 72px;
     flex-direction: column;
     align-items: center;
   }
+    .car-info-container h6{
+    font-size: 13px;
+    }
   .car-info{
     gap: 18px;
   }
-  .car-price h5, .car-location i, .collection-car-items h2, .btn-herocar i{
-    font-size: 20px;
+  .car-price h5, .car-location i, .collection-car-items h2, {
+    font-size: 17px;
   }
   .car-location , .car-price{
     gap: 4px;
@@ -1065,7 +1062,7 @@ gap: 72px;
   .btn-herocar{
     margin-top: 60px;
     width: 200px;
-    height: 50px;
+    height: auto;
     font-size: 16px;
   }
   
@@ -1138,6 +1135,9 @@ gap: 72px;
   #collection-car-item-page{
     height: 384px;
   }
+    #collection-car-items-page h6{
+    font-size: 17px;
+    }
   
   /*  contact page */
   
