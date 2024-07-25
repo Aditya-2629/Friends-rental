@@ -401,7 +401,7 @@
   
   .btn-herocar{
     width: 276px;
-    height: 60px;
+    height: auto;
     border-radius: 0px;
     font-size: 24px;
     background-color: var(--black);
@@ -609,7 +609,7 @@ cursor: pointer;
 .collection-category{
   display: flex;
  flex-direction: column;
- width: auto;
+ width: 100%;
  padding: 0px 50px;
  margin-top: 100px;
   
@@ -866,6 +866,9 @@ gap: 72px;
   .index-footer{
     margin-top: 300px;
   }
+    .index-footer h2{
+    margin: auto;
+    }
   .callout {
     padding: 50px;
     background-color: var(--accent);
